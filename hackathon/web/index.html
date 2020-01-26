@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Fly with Friends</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="https://bootswatch.com/4/darkly/bootstrap.css" media="screen">
+    <link rel="stylesheet" href="https://bootswatch.com/_assets/css/custom.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  </head>
+
+<title>Fly with Friends</title>
+
+<div class="container">
+	<div class="text-center" style="padding-top: 5em; padding-bottom: 5em;">
+	  <h1>Fly with Friends</h1>
+	</div>
+</div>
+
+<form method = "POST">
+	<div class="container center_div">
+		<div class="form-row form-row justify-content-center">
+			<div class="col-auto">
+			  <label class="sr-only" for="inlineFormInputGroup">Origin</label>
+			  <div class="input-group mb-2">
+				<div class="input-group-prepend">
+				  <div class="input-group-text">I want to leave from</div>
+				</div>
+				<input name="origin" type="text" class="form-control" id="inlineFormInputGroup" placeholder="College Station, TX">
+			  </div>
+			</div>
+			<div class="col-auto">
+			  <label class="sr-only" for="inlineFormInputGroup">Date</label>
+			  <div class="input-group mb-2">
+				<div class="input-group-prepend">
+				  <div class="input-group-text">on</div>
+				</div>
+				<input name="sdate" type="text" class="form-control" id="inlineFormInputGroup" placeholder="01/26/2019">
+			  </div>
+			</div>
+		</div>
+		
+		<div class="form-row form-row justify-content-center" style="padding-top: 1em;">
+			<div class="col-auto">
+			  <label class="sr-only" for="inlineFormInputGroup">Destination</label>
+			  <div class="input-group mb-2">
+				<div class="input-group-prepend">
+				  <div class="input-group-text">and go to </div>
+				</div>
+				<input name="destination" type="text" class="form-control" id="inlineFormInputGroup" placeholder="New York, NY">
+			  </div>
+			</div>
+			<div class="col-auto">
+			  <label class="sr-only" for="inlineFormInputGroup">Date</label>
+			  <div class="input-group mb-2">
+				<div class="input-group-prepend">
+				  <div class="input-group-text">until</div>
+				</div>
+				<input name="edate" type="text" class="form-control" id="inlineFormInputGroup" placeholder="01/30/2020">
+			  </div>
+			</div>
+		</div>
+		
+		<div class="form-row form-row justify-content-center" style="padding-top: 2em;">
+			<button type="submit" class="btn btn-info">Let's go!</button>
+		</div>
+	</div>
+</form>
